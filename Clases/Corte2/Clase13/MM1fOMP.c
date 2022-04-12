@@ -1,5 +1,5 @@
 /*Date: 2022-03-30
-* Author: Santiago Pérez.
+* Author: Juan Camilo Rodriguez Giraldo
 * Subject: Parallel and Distributed Computing.
 * Topic: Posix implemetation (Library)
 * Description: Application for matrix multiplication

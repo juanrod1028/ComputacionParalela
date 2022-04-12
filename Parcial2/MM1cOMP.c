@@ -1,4 +1,4 @@
-/*Date: 2022-03-30
+/*Date: 12/04/2022
 * Author: Juan Camilo Rodriguez Giraldo.
 * Subject: Parallel and Distributed Computing.
 * Topic: Posix implemetation (Library)
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     Nthreads = atof(argv[2]); /* Number of threads.*/
     if (Nthreads > omp_get_max_threads())
     {
-        printf("El número de hilos debe ser menor o igual a %d", omp_get_max_threads());
+        printf("El número de hilos debe ser menor o igual a %d\n", omp_get_max_threads());
         return -1;
     }
 
